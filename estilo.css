@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #4285f4; /* Fundo azul */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    color: white; /* Cor do texto branca */
+    margin-bottom: 10px;
+  }
+  
+  .nav-links {
+    display: flex; /* Usa flexbox para organizar os links */
+    justify-content: center; /* Centraliza os links */
+    gap: 20px; /* Espaçamento entre os links */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto dos links */
+    font-size: 18px; /* Tamanho da fonte */
+    padding: 5px 10px; /* Espaçamento interno para os links */
+    border-radius: 5px; /* Cantos arredondados */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+  }
+  
+  .nav-links a:hover {
+    background-color: #ffeb3b; /* Fundo amarelo ao passar o mouse */
+    color: #000; /* Texto preto ao passar o mouse */
+  }
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    text-align: center;
+}
+
+.descricao h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.descricao h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.descricao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.descricao ul li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4a90e2;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
